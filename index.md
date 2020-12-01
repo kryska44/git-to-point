@@ -2,9 +2,40 @@ what I have found helpful when learning Git:
 
 I used Michael Hartl's soft introduction: [Learn Enough To Be Dangerous] (https://www.learnenough.com/git-tutorial/getting_started). This is a really soft introduction to the basic workflow anyone who want to learn programming would need. It is hands-on approach with good tips and confidence building. I have covered Micahel`s tutorials on basic command line and editor so I felt encouraged to try and check [git man pages] (https://helpmanual.io/man1/git/).
 
-
 [Git Visualiser](http://git-school.github.io/visualizing-git/) - I had problem memorizing commands despite the logic of the workflow was fairly easy at the start.
 Interactive picture speaks a thousand words! 
+
+ProGit is good as a reference in general and help with git-completion and git-prompt scripts - these make things easier when working with Git.
+Initially, I got errors when following steps in the tutorial about invalid new line char., etc. 
+
+Through some research I found out that the solution lies in file compatibility with the git version.
+So I ended up installing latest bash 
+
+So I updated Git on my desktop: brew install git
+
+Searched for local copies of bash_completion and git-prompt.
+
+$ find / -name 'git-completion.bash' -type f -print -quit 2>/dev/null
+/usr/local/Cellar/git/2.26.0/etc/bash_completion.d/git-completion.bash
+put a line with . ~/.git-completion.bash in your ~/.bash_profile
+
+$ find / -name 'git-prompt.sh' -type f -print -quit 2>/dev/null
+/Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
+
+Copied both files to ~. Made them hidden and executable.
+cp /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh ~/.git-prompt.sh
+chmod + x ~/.git-prompt.sh
+
+edited ~/.bashrc to get my git-prompt working.
+. ~/.git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='\w$(__git_ps1 " (%s)")\$
+
+added this line to my ~/.bash_profile
+. ~/.git-completion.bash
+
+this made things working like a charm.
+-------
 
 ## Welcome to GitHub Pages
 
