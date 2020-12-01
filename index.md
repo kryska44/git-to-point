@@ -1,6 +1,6 @@
 what I have found helpful when learning Git:
 
-I used Michael Hartl's soft introduction: [Learn Enough To Be Dangerous] (https://www.learnenough.com/git-tutorial/getting_started). This is a really soft introduction to the basic workflow anyone who want to learn programming would need. It is hands-on approach with good tips and confidence building. I have covered Micahel`s tutorials on basic command line and editor so I felt encouraged to try and check [git man pages] (https://helpmanual.io/man1/git/).
+I used Michael Hartl's soft introduction: [Learn Enough Git to Be Dangerous ](https://learnenough.com/git-tutorial). This is a really soft introduction to the basic workflow anyone who want to learn programming would need. It is hands-on approach with good tips and confidence building. I have covered Micahel`s tutorials on basic command line and editor so I felt encouraged to try and check [git man pages] (https://helpmanual.io/man1/git/).
 
 [Git Visualiser](http://git-school.github.io/visualizing-git/) - I had problem memorizing commands despite the logic of the workflow was fairly easy at the start.
 Interactive picture speaks a thousand words! 
