@@ -40,5 +40,5 @@ added this line to my ~/.bash_profile
 this made things working.
 
 -------
-A shortcut on macOS to produce backslash is **\** Option-Shift-7, **|** Option-7, and **~** Option-^ (immediately left to the Enter key on Norwegian MacBook Pro). On Norwegian iMac keyboard Option-k produses **~**
+A shortcut on macOS to produce backslash is __\__ Option-Shift-7, __|__ Option-7, and __~__ Option-^ (immediately left to the Enter key on Norwegian MacBook Pro). On Norwegian iMac keyboard Option-k produses __~__
 
