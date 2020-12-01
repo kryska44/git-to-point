@@ -40,5 +40,5 @@ added this line to my ~/.bash_profile
 this made things working.
 
 -------
-A shortcut on macOS to produce backslash is __\__ Option-Shift-7, __|__ Option-7, and __~__ Option-^ (immediately left to the Enter key on Norwegian MacBook Pro). On Norwegian iMac keyboard Option-k produses __~__
+A shortcut on Norwegian macOS to produce backslash \ is Option-Shift-7, to produse pipe char | you need Option-7, and tilde char ~ you need Option-^ (immediately left to the Enter key on Norwegian MacBook Pro). On Norwegian iMac keyboard Option-k produses ~ tilde character.
 
