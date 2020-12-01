@@ -1,14 +1,14 @@
 what I have found helpful when learning Git:
 
-I used Michael Hartl's soft introduction: [Learn Enough Git to Be Dangerous ](https://learnenough.com/git-tutorial). This is a really soft introduction to the basic workflow anyone who want to learn programming would need. It is hands-on approach with good tips and confidence building. I have covered Micahel`s tutorials on basic command line and editor so I felt encouraged to try and check [git man pages] (https://helpmanual.io/man1/git/).
+I used Michael Hartl's introduction: [Learn Enough Git to Be Dangerous ](https://learnenough.com/git-tutorial). This is a really beginner-friendly, hands-on approach which helped me get the basics. I also have covered Micahel`s tutorials on [basic command line](https://www.learnenough.com/command-line-tutorial/basics) and [editor](https://www.learnenough.com/text-editor-tutorial/vim) so I felt encouraged to experiment on my own using [git man pages](https://helpmanual.io/man1/git/) and [ProGit](https://git-scm.com/book/en/v2).
 
 [Git Visualiser](http://git-school.github.io/visualizing-git/) - I had problem memorizing commands despite the logic of the workflow was fairly easy at the start.
 Interactive picture speaks a thousand words! 
 
-ProGit is good as a reference in general and help with git-completion and git-prompt scripts - these make things easier when working with Git.
-Initially, I got errors when following steps in the tutorial about invalid new line char., etc. 
+ with git-completion and git-prompt scripts - these make things easier when working a lot with Git.
+When trying make script work I initially encountered errors about invalid new line char., etc. I imported the scripts from GitHub as recommended in the book and other places on the Internet. 
 
-Through some research I found out that the solution lies in file compatibility with the git version.
+Through some research I found out that the solution lies in file compatibility with the bash version.
 So I ended up installing latest bash 
 
 So I updated Git on my desktop: brew install git
