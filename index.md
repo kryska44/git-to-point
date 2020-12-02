@@ -33,11 +33,13 @@ chmod +x ~/.git-completion.bash
 chmod +x ~/.git-prompt.sh
 
 edited ~/.bashrc to get my git-prompt working:
-. ~/.git-prompt.sh
-export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\w$(__git_ps1 " (%s)")\$
 
-added this line to my ~/.bash_profile
+* . ~/.git-prompt.sh
+* export GIT_PS1_SHOWDIRTYSTATE=1
+* export PS1='\w$(__git_ps1 " (%s)")\$
+
+in my ~/.bash_profile: 
+
 . ~/.git-completion.bash
 
 This made things working.
