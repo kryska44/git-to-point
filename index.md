@@ -15,8 +15,9 @@ I imported the scripts from GitHub, made them executable, activated in my shell 
 
 *bash: /Users/../git-completion.bash: line 7: `<!DOCTYPE html>'--
 
-Through some research I found out that the solution lies in file [compatibility with the bash version](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba).
-So I ended up installing latest Bash and lasted Git. 
+I have done some searching and I found out that the issue may be related to [file compatibility with the bash version](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba).
+
+So I ended up installing latest Bash and latest Git. 
 
 * brew install bash 
 * brew install git
@@ -29,7 +30,8 @@ result: /usr/local/Cellar/git/2.26.0/etc/bash_completion.d/git-completion.bash
 * $ find / -name 'git-prompt.sh' -type f -print -quit 2>/dev/null
 result: /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 
-copy files to $HOME, make them executable. 
+copy files to $HOME and made them executable
+
 * cp /usr/local/Cellar/git/2.26.0/etc/bash_completion.d/git-completion.bash ~/.git-completion.bash
 * cp /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh ~/.git-prompt.sh
 
