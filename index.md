@@ -12,8 +12,8 @@ I imported the scripts from GitHub, made them executable, activated in my shell 
 Through some research I found out that the solution lies in file [compatibility with the bash version](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba).
 So I ended up installing latest Bash and lasted Git. 
 
-brew install bash
-brew install git
+* brew install bash 
+* brew install git
 
 Searched for local copies of bash_completion and git-prompt.
 
