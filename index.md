@@ -9,7 +9,11 @@ Interactive picture speaks a thousand words!
 
 At some point I wanted to adopt git-completion.bash (git-specific command completion with Tab) and git-prompt.sh (current git branch as part of shell prompt) - these scripts make things easier when working a lot with Git.
 
-I imported the scripts from GitHub, made them executable, activated in my shell profile but encountered errors about invalid newline char., etc. 
+I imported the scripts from GitHub, made them executable, activated in my shell profile but encountered syntax errors:
+
+*bash: /Users/../git-completion.bash: line 7: syntax error near unexpected token `newline'
+
+*bash: /Users/../git-completion.bash: line 7: `<!DOCTYPE html>'--
 
 Through some research I found out that the solution lies in file [compatibility with the bash version](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba).
 So I ended up installing latest Bash and lasted Git. 
